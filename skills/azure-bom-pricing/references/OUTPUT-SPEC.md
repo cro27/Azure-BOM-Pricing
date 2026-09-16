@@ -53,6 +53,25 @@ Include:
 - source-extraction confidence;
 - age of the price snapshot.
 
+### Source Architecture
+
+Include this worksheet when the estimate input is:
+
+- an architecture diagram or image; or
+- a link to a Bicep, Azure Resource Manager (ARM), or Terraform template or repository.
+
+The worksheet must preserve the exact source used to produce the estimate:
+
+- for a diagram or image, embed the source image in the worksheet;
+- for linked IaC, include the full clickable URL to the Bicep, ARM, or Terraform source;
+- when multiple images or links were used, include every source;
+- identify the source type and record any relevant file, branch, tag, or commit reference
+  available from the input.
+
+Do not replace the source with a recreated diagram, paraphrased URL, or architecture
+summary. A short extraction note may accompany the source, but the original image or link
+must remain visible in the worksheet.
+
 ### Cost Detail
 
 One row per billable component:
