@@ -62,7 +62,11 @@ references, use the complete skill archive rather than uploading only `SKILL.md`
 8. Wait for it to appear under **Your skills**, then test it in a new conversation.
 
 Cowork also accepts a single `.md` file, but that format omits the companion templates
-and references. Archive upload is recommended.
+and references. Archive upload of the supporting references and templates folders is recommended.
+
+Before running the skill in Cowork run the following instruction to ensure it reads the reference files and uses browser access to the pricing API. The instruction will be saved to memory for future reference.
+
+`when using the azure-bom-pricing skill always read the supporting reference files which contain costing rules, api guide, intake guide, licensing sources, tshirt sizing rules and output spec. Always use live pricing which should be reachable through the browser.`
 
 [Microsoft documentation: Upload a skill to Cowork](https://learn.microsoft.com/microsoft-365/copilot/cowork/cowork-customize#upload-a-skill)
 
